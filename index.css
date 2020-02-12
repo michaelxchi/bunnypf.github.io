@@ -1,0 +1,21 @@
+.whtie-text {
+    color: white;
+
+}
+
+.red-text {
+    color: red;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} 
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
