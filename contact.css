@@ -57,7 +57,6 @@ body {
     padding-bottom: 0;
 }
 
-
 .header{
     margin: 0px;
     width: auto;
@@ -65,7 +64,6 @@ body {
     height:450px;
     background-size: cover;
     background-position: center center;
-   
     
 }
 
@@ -86,125 +84,29 @@ body {
  
 
 }
+.header_area p {
+    margin:0 auto;
+    margin-top: 15px;
+    width:480px;
+    font-size: 16px;
+   
+}
 
-/*ส่วนของรูป*/
-.info1 {
-    width: 100%;
-    height:300;
+.contact {
+    margin-left: 350px;
     margin-top: 150px;
+    height: 500px;
+    width: 500px;
    
+    
 }
-
-.info1_area {
- 
-    background:solid; 
-}
-
-.info1_area img{
-    width: 450px;
-    height: 400auto;
-  
-}
-.info1_text {
-    text-align:left;
-    width: 450px;
-    float: left;
-    margin-left: 0px;
-    margin-top: 10px;
+.contact_area  {
+    padding-top: 50px; /*ตัวหนังสือทุำกอย่างในแถบเฮด*/
+    width: 300px;
+    margin: auto;
+    text-align: center;
     color: palevioletred;
-}
-.info1_area h1{
-    margin:0;
-}
-
-.info2 {
-    width: 100%;
-    height:300;
-    margin-top: 30px;
-   
-}
-
-.info2_area {
- 
-    background:solid; 
-}
-
-.info2_area img{
-    margin-top: 30px;
-    width: 450px;
-    height: 400auto;
-  
-}
-.info2_text {
-    text-align:left;
-    width: 450px;
     float: left;
-    margin-left: 0px;
-    margin-top: 30px;
-    color: palevioletred;
-}
-.info2_area h1{
-    margin:0;
-}
-
-.info3 {
-    width: 100%;
-    height:300;
-    margin-top: 30px;
-   
-}
-
-.info3_area {
- 
-    background:solid; 
-}
-
-.info3_area img{
-    margin-top: 30px;
-    width: 450px;
-    height: 400auto;
-  
-}
-.info3_text {
-    text-align:left;
-    width: 450px;
-    float: left;
-    margin-left: 0px;
-    margin-top: 30px;
-    color: palevioletred;
-}
-.info3_area h1{
-    margin:0;
-}
-
-.info4 {
-    width: 100%;
-    height:300;
-    margin-top: 30px;
-   
-}
-
-.info4_area {
- 
-    background:solid; 
-}
-
-.info4_area img{
-    margin-top: 30px;
-    width: 450px;
-    height: 400auto;
-  
-}
-.info4_text {
-    text-align:left;
-    width: 450px;
-    float: left;
-    margin-left: 0px;
-    margin-top: 30px;
-    color: palevioletred;
-}
-.info4_area h1{
-    margin:0;
 }
 
 
@@ -216,7 +118,6 @@ body {
     margin-top: 100px;
 }  
 
-/*footer*/
 .footer .foot-logo {
     float: left;
 }
@@ -248,6 +149,8 @@ body {
 
   
 }
+
+
 
 
 

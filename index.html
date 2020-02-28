@@ -4,58 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hibiscus Cafe!</title>
-    <link rel="stylesheet" href="index.css">
-  <style>
-      * {
-        box-sizing: border-box;
-      }
-      
-      body {
-        margin: 0;
-      }
-      
-      /* Style the header */
-      .header {
-        background-color: #f1f1f1;
-        padding: 20px;
-        text-align: center;
-      }
-      
-      /* Style the top navigation bar */
-      .topnav {
-        overflow: hidden;
-        background-color: #333;
-      }
-      
-      /* Style the topnav links */
-      .topnav a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      
-      /* Change color on hover */
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      <style>
-      </head>
-      <body>
-      
-      <div class="header">
-        <h1>Header</h1>
-      </div>
-      
-      <div class="topnav">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-      </div>
-  </body>
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+    <title>EasyRecipes!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="menubar">
+        <div class="container">
+
+            <div class="logo"> <!--ต้องเปิดคลาสทุกครั้งที่สร้างcss-->
+               <h1> Easy Recipes!</h1> <!--ตัวโลโก-->
+            </div>
+
+        <ul class="menu"><!-- ลิ้งเมนู-->
+          <li> <!--ลิสเมนู-->
+            <a href="index.html">Home</a> <!--ลิ้งของเมนูที่จะไป-->
+          </li> 
+          <li>
+            <a href="appetizers.html">Appetizers</a>
+          </li> 
+          <li>
+            <a href="breakfast.html">Breakfast</a>
+          </li> 
+          <li>
+            <a href="dinner.html">Dinner</a>
+          </li> 
+          <li>
+            <a href="dessert.html">Dessert</a>
+          </li> 
+          <li>
+            <a href="contact.html">Contact</a>
+          </li> 
+        </ul>
+      </div>
+    </div> 
+
+    <header class="header"> <!--ประกาศเปิดสร้างheadeส่วนหัวของเว็บ-->
+      <div class="container"> 
+          <div class="header_area">
+              <h1>Easy Recipes</h1> <!--ส่วนของข้อความบนheader-->
+              
+          </div>
+      </div>
+  </header>
+
+    <section class="info1"> <!--ส่วนที่สองตรงกลางขอวเว็บ-->
+      <div class="container">
+        <div class="info1_area"> 
+      
+          
+          <img src="https://images.unsplash.com/photo-1554998171-89445e31c52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2010&q=80" alt> 
+      
+
+          <div class="info1_text">
+              <h1>Appetizers</h1>
+              <p>Stuffed Mushroom</p>
+                <p>Bacon Wrapped</p>
+                <P>Creamy Mushroom Soup</P>
+          </div>   
+  
+          
+        </div>
+        
+      </div>
+
+    </section>
+
+
+<!--เนิอหาของเว็บ-->
+    <section class="info2"> 
+      <div class="container">
+        <div class="info2_area"> 
+          <img src="https://images.unsplash.com/photo-1495214783159-3503fd1b572d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="">
+          <div class="info2_text">
+              <h1>Breakfast</h1>
+                <p>Fulffy Pancake</p>
+                <p>Scrambled Egg</p>
+                <p>Waffle</p>
+              
+          </div>
+        </div>
+      </div>
+
+    </section>
+ <!--เนื้อหาของเว็บ-->
+    <section class="info3">
+      <div class="container">
+        <div class="info3_area"> 
+          <img src="https://images.unsplash.com/photo-1559979655-633f6129e514?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1998&q=80" alt="">
+          <div class="info3_text">
+              <h1>Dinner</h1>
+                <p>Grilled Salmon</p>
+                <p>Easy Meatloaf</p>
+                <p>Garlic Butter Steak</p>
+              
+          </div>
+        </div>
+      </div>
+
+    </section>
+<!--เนื้อหาของเว็บ-->
+    <section class="info4"> 
+      <div class="container">
+        <div class="info4_area"> 
+          <img src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" alt="">
+          <div class="info4_text">
+              <h1>Dessert</h1>
+                <p>Brownies</p>
+                <p>Chocolate Chip Cookies</p>
+                <p>Strawberry Mousse</p>
+              
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+<!--footer-->
+    <div class="footer"> 
+      <div class="container">
+
+          <div class="footer-logo"> 
+             <h1> Easy Recipes!</h1> 
+          </div>
+
+          <ul class="ft-menu">
+          <li> 
+            <a href="https://www.facebook.com">
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRVmei0fToKVoHXnL6kkkX1rDpDzFBLLa09Di_nnpnQ1BmSdyC3"></li> 
+            </a>
+          </li> 
+        
+          <li>
+            <a href="https://twitter.com">
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSN7shvAoXvDOUMRw4rHlsW2JDi-DF6eDrIybfzawiCzZRXlyFI"></li>
+            </a>
+          </li> 
+          
+          <li>
+            <a href="https://aboutme.google.com/u/0/?referer=gplus">
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgxlu-19Tt74II59OvNHlTvL91doUxeHYjT9JC_wRAA77mOBt_"></li>
+            </a>
+          </li> 
+          
+          <li>
+            <a href="https://www.youtube.com">
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfaPM29ucviAoXocP2kwLVm68GQOoHUEx5e0dxugBCoKxs8EbP"></li>
+            </a>
+          </li> 
+          </ul>
+        </div>
+      </div> 
+
+
+</body>
 </html>
+
+
